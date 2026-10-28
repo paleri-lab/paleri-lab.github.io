@@ -20,12 +20,15 @@
     Turbulence and Diffusion Division in Boulder, working on surface energy budgets in complex terrain.
     He did his PhD at UW–Madison, investigating surface-induced secondary circulations using LES and airborne turbulence measurements.
   education:
-    - "PhD, Atmospheric & Oceanic Sciences, University of Wisconsin–Madison, 2023"
-    - "MTech, Applied Mechanics, IIT Madras, 2013"
-    - "BTech, Civil Engineering, IIT Madras, 2013"
+    - "<b>PhD</b> Atmospheric & Oceanic Sciences, University of Wisconsin–Madison, 2023. Dissertation: Role of heterogeneous ecosystems in modulating surface–atmosphere transport"
+    - "<b>BTech</b> Civil Engineering and <b>MTech</b> Applied Mechanics (Fluid Mechanics), IIT Madras, 2013"
+  service:
+    - "<b>Editorial Board</b> Boundary-Layer Meteorology"
+    - "<b>Member</b> AMS Committee on Measurements"
   links:
     email: "paleri@tamu.edu"
-    cv: "https://sreenathpaleri.github.io/files/sreenath_cv.pdf"
+    orcid: "https://orcid.org/0000-0003-4435-6343"
+    cv: "assets/files/sreenath-paleri-cv.pdf"
 
 # Add students, postdocs and alumni below, for example:
 # - name: "Jane Doe"

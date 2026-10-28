@@ -14,7 +14,7 @@
   <article class="pub" data-type="<%= p.type %>" data-year="<%= p.year %>">
     <div class="t"><%= p.title %></div>
     <div class="a"><%= bold(p.authors) %></div>
-    <div class="v"><%= p.venue %> · <%= p.year %></div>
+    <div class="v"><%= p.venue %><% if (p.type !== "submitted") { %> · <%= p.year %><% } %></div>
     <div class="links">
       <% if (p.doi) { %><a class="chip" href="https://doi.org/<%= p.doi %>">DOI</a><% } %>
       <% if (p.pdf) { %><a class="chip" href="<%= p.pdf %>">PDF</a><% } %>

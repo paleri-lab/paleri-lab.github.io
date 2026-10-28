@@ -13,7 +13,7 @@ listing:
 
 # Papers
 
-Lab members are in bold.
+Peer-reviewed papers and book chapters; lab members are in bold. Conference abstracts and preprints are listed on [ORCID](https://orcid.org/0000-0003-4435-6343).
 
 ```{=html}
 <div class="filters" role="group" aria-label="Filter by type">

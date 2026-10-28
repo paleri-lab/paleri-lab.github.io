@@ -20,6 +20,7 @@
     <div class="role"><%= p.title %></div>
     <p class="bio"><%= p.bio %></p>
     <% if (p.education) { %><ul class="edu"><% for (const e of p.education) { %><li><%= e %></li><% } %></ul><% } %>
+    <% if (p.service) { %><ul class="edu"><% for (const e of p.service) { %><li><%= e %></li><% } %></ul><% } %>
     <div class="links"><%= linkChips(p.links) %></div>
   </div>
 </div>

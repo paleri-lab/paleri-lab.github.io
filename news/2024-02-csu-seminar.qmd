@@ -1,0 +1,7 @@
+---
+title: "Invited seminar at Colorado State University"
+date: 2024-02-01
+description: "\"Measuring and Modeling Multi-Scale Surface Atmosphere Exchanges\" at the CSU Atmospheric Science seminar."
+---
+
+Sreenath gave an invited talk, *Measuring and Modeling Multi-Scale Surface Atmosphere Exchanges*, at the Department of Atmospheric Science seminar at Colorado State University.

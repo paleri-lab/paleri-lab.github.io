@@ -1,0 +1,9 @@
+---
+title: "New paper in Boundary-Layer Meteorology"
+date: 2025-01-01
+when: "2025"
+date-format: "YYYY"
+description: "How surface-heterogeneity-induced secondary circulations shape the atmospheric boundary layer, from LES of CHEESEHEAD19."
+---
+
+Our paper on the impact of surface-heterogeneity-induced secondary circulations on the atmospheric boundary layer is out in *Boundary-Layer Meteorology*. [Read it here](https://doi.org/10.1007/s10546-024-00893-7).

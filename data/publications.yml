@@ -12,6 +12,56 @@
 # Shortcut: `python3 scripts/add_doi.py 10.xxxx/yyyy` fetches the details from Crossref
 # and adds an entry at the top of this file for you to check.
 
+- title: "Where has all the energy gone? Quantifying advective energy fluxes with a dense tower network"
+  authors: "Mather, E., Desai, A. R., Blakely, B., Butterworth, B., Metzger, S., **Paleri, S.**"
+  venue: "Under review"
+  year: "Under review"
+  type: submitted
+
+- title: "Impact of Surface Heterogeneity Induced Secondary Circulations on the Atmospheric Boundary Layer"
+  authors: "**Paleri, S.**, Wanner, L., Sühring, M., Desai, A. R., Mauder, M., Metzger, S."
+  venue: "Boundary-Layer Meteorology, 191"
+  year: 2025
+  type: article
+  doi: "10.1007/s10546-024-00893-7"
+  featured: true
+
+- title: "Ecosystem-atmosphere exchanges of carbon dioxide, water vapour and energy in India: A synthesis of insights from eddy covariance measurements"
+  authors: "Deb Burman, P. K., Bhat, G. S., Tiwari, Y. K., Morrison, R., Rodda, S. R., Mukherjee, S., …, **Paleri, S.**, et al."
+  venue: "Agricultural and Forest Meteorology, 372, 110730"
+  year: 2025
+  type: article
+  doi: "10.1016/j.agrformet.2025.110730"
+
+- title: "Towards Energy-Balance Closure with a Model of Dispersive Heat Fluxes"
+  authors: "Wanner, L., Jung, M., **Paleri, S.**, Butterworth, B. J., Desai, A. R., Sühring, M., Mauder, M."
+  venue: "Boundary-Layer Meteorology, 190"
+  year: 2024
+  type: article
+  doi: "10.1007/s10546-024-00868-8"
+
+- title: "Airborne Measurements of Scale‐Dependent Latent Heat Flux Impacted by Water Vapor and Vertical Velocity Over Heterogeneous Land Surfaces During the CHEESEHEAD19 Campaign"
+  authors: "Lin, G., Wang, Z., Chu, Y., Ziegler, C. L., Hu, X., Xue, M., Geerts, B., **Paleri, S.**, Desai, A. R., Yang, K., Deng, M., DeGraw, J."
+  venue: "Journal of Geophysical Research: Atmospheres, 129"
+  year: 2024
+  type: article
+  doi: "10.1029/2023JD039586"
+
+- title: "Characterizing energy balance closure over a heterogeneous ecosystem using multi-tower eddy covariance"
+  authors: "Butterworth, B. J., Desai, A. R., Durden, D., Kadum, H., LaLuzerne, D., Mauder, M., Metzger, S., **Paleri, S.**, Wanner, L."
+  venue: "Frontiers in Earth Science, 11"
+  year: 2024
+  type: article
+  doi: "10.3389/feart.2023.1251138"
+
+- title: "Here, there, and everywhere: Spatial patterns and scales"
+  authors: "**Paleri, S.**, Butterworth, B., Desai, A. R."
+  venue: "In A. L. Hiscox (Ed.), Conceptual Boundary Layer Meteorology, 37–58. Academic Press"
+  year: 2023
+  type: chapter
+  doi: "10.1016/B978-0-12-817092-2.00009-6"
+  featured: true
+
 - title: "Scaling Land‐Atmosphere Interactions: Special or Fundamental?"
   authors: "Desai, A. R., **Paleri, S.**, Mineau, J., Kadum, H., Wanner, L., Mauder, M., Butterworth, B. J., Durden, D. J., Metzger, S."
   venue: "Journal of Geophysical Research: Biogeosciences, 127"
@@ -26,20 +76,12 @@
   type: article
   doi: "10.1029/2022JG007014"
 
-- title: "Space-scale resolved surface-atmospheric fluxes across a heterogeneous, mid-latitude forested landscape"
+- title: "Space-scale resolved surface fluxes across a heterogeneous, mid-latitude forested landscape"
   authors: "**Paleri, S.**, Desai, A. R., Metzger, S., Durden, D., Butterworth, B., Mauder, M., Kohnert, K., Serafimovich, A."
-  venue: "Journal of Geophysical Research: Atmospheres"
+  venue: "Journal of Geophysical Research: Atmospheres, 127"
   year: 2022
   type: article
   doi: "10.1029/2022JD037138"
-  featured: true
-
-- title: "Spatial patterns and scales"
-  authors: "**Paleri, S.**, Butterworth, B., Desai, A. R."
-  venue: "Book chapter, Elsevier"
-  year: 2022
-  type: chapter
-  doi: "10.1016/B978-0-12-817092-2.00009-6"
   featured: true
 
 - title: "Multi‐Sensor Approach for High Space and Time Resolution Land Surface Temperature"
@@ -55,18 +97,24 @@
   year: 2021
   type: article
   doi: "10.5194/amt-14-6929-2021"
-  featured: true
 
 - title: "Connecting land–atmosphere interactions to surface heterogeneity in CHEESEHEAD19"
   authors: "Butterworth, B. J., et al. (incl. **Paleri, S.**)"
-  venue: "Bulletin of the American Meteorological Society, 102"
+  venue: "Bulletin of the American Meteorological Society, 102, E421–E445"
   year: 2021
   type: article
   doi: "10.1175/BAMS-D-19-0346.1"
 
+- title: "Interaction of convective organization with monsoon precipitation, atmosphere, surface and sea: The 2016 INCOMPASS field campaign in India"
+  authors: "Turner, A. G., Bhat, G. S., Martin, G. M., Parker, D. J., Taylor, C. M., Mitra, A. K., …, **Paleri, S.**, et al."
+  venue: "Quarterly Journal of the Royal Meteorological Society, 146, 2828-2852"
+  year: 2020
+  type: article
+  doi: "10.1002/qj.3633"
+
 - title: "Spatial and temporal variability in energy and water vapour fluxes observed at seven sites on the Indian subcontinent during 2017"
   authors: "Bhat, G. S., Morrison, R., Taylor, C. M., Bhattacharya, B. K., **Paleri, S.**, et al."
   venue: "Quarterly Journal of the Royal Meteorological Society, 146, 2853–2866"
-  year: 2019
+  year: 2020
   type: article
   doi: "10.1002/qj.3688"

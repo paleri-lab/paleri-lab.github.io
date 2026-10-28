@@ -1,0 +1,7 @@
+---
+title: "Invited seminar at Johns Hopkins"
+date: 2022-03-01
+description: "\"Interactions between land surface heterogeneity and lower atmospheric response\" at the JHU Atmospheres and Oceans seminar."
+---
+
+Sreenath gave an invited talk, *Interactions between land surface heterogeneity and lower atmospheric response*, at the Atmospheres and Oceans seminar in the Department of Earth and Planetary Sciences, Johns Hopkins University.

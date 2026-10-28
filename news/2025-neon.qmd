@@ -1,9 +1,7 @@
 ---
 title: "Sreenath joins NSF NEON (Battelle)"
 date: 2025-03-01
-when: "2025"
-date-format: "YYYY"
 description: "Working as an Environmental Scientist on the National Ecological Observatory Network."
 ---
 
-Sreenath joins NSF NEON (Battelle) as an Environmental Scientist, working on the National Ecological Observatory Network.
+Sreenath joins NSF NEON (Battelle) as an Environmental Scientist II in Boulder, working on the National Ecological Observatory Network.

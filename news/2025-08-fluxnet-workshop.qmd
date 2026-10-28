@@ -1,0 +1,7 @@
+---
+title: "FLUXNET workshop in Berkeley"
+date: 2025-08-02
+description: "Sreenath was an organizer of the FLUXNET community workshop \"Bridging the Gap: Flux Data Meets Land Surface Models\"."
+---
+
+Sreenath was an organizer of the FLUXNET community workshop *Bridging the Gap: Flux Data Meets Land Surface Models* in Berkeley, California.

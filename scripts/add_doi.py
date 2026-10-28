@@ -40,6 +40,9 @@ def author_list(authors):
         if a.get("family") in LAB_MEMBERS:
             name = f"**{name}**"
         names.append(name)
+    if len(names) > 12:  # long consortium lists: first six, then any lab members, then et al.
+        lab = [n for n in names[6:] if n.startswith("**")]
+        return ", ".join(names[:6] + (["…"] + lab if lab else [])) + ", et al."
     return ", ".join(names)
 
 

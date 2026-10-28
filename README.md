@@ -70,3 +70,9 @@ quarto preview
 ## One-time GitHub setup
 
 Repository **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+
+## License
+
+Text, images and other content on this site are licensed under
+[Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/);
+see `LICENSE`. Figures reproduced from published papers remain subject to the journals' terms.

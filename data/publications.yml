@@ -1,0 +1,72 @@
+# Publications, newest first. One entry per paper.
+#
+#   title:    paper title
+#   authors:  author list as it should appear; wrap lab members in ** to bold them
+#   venue:    journal / book, volume, pages
+#   year:     publication year
+#   type:     article | chapter | preprint | conference
+#   doi:      DOI without https://doi.org/  (optional)
+#   pdf / code / data / url:  optional links
+#   featured: true  -> also shown under "Recent papers" on the homepage (top 3)
+#
+# Shortcut: `python3 scripts/add_doi.py 10.xxxx/yyyy` fetches the details from Crossref
+# and adds an entry at the top of this file for you to check.
+
+- title: "Scaling Land‐Atmosphere Interactions: Special or Fundamental?"
+  authors: "Desai, A. R., **Paleri, S.**, Mineau, J., Kadum, H., Wanner, L., Mauder, M., Butterworth, B. J., Durden, D. J., Metzger, S."
+  venue: "Journal of Geophysical Research: Biogeosciences, 127"
+  year: 2022
+  type: article
+  doi: "10.1029/2022JG007097"
+
+- title: "Drivers of Decadal Carbon Fluxes Across Temperate Ecosystems"
+  authors: "Desai, A. R., Murphy, B. A., Wiesner, S., Thom, J., Butterworth, B. J., Koupaei‐Abyazani, N., Muttaqin, A., **Paleri, S.**, Talib, A., Turner, J., Mineau, J., Merrelli, A., Stoy, P., Davis, K."
+  venue: "Journal of Geophysical Research: Biogeosciences, 127"
+  year: 2022
+  type: article
+  doi: "10.1029/2022JG007014"
+
+- title: "Space-scale resolved surface-atmospheric fluxes across a heterogeneous, mid-latitude forested landscape"
+  authors: "**Paleri, S.**, Desai, A. R., Metzger, S., Durden, D., Butterworth, B., Mauder, M., Kohnert, K., Serafimovich, A."
+  venue: "Journal of Geophysical Research: Atmospheres"
+  year: 2022
+  type: article
+  doi: "10.1029/2022JD037138"
+  featured: true
+
+- title: "Spatial patterns and scales"
+  authors: "**Paleri, S.**, Butterworth, B., Desai, A. R."
+  venue: "Book chapter, Elsevier"
+  year: 2022
+  type: chapter
+  doi: "10.1016/B978-0-12-817092-2.00009-6"
+  featured: true
+
+- title: "Multi‐Sensor Approach for High Space and Time Resolution Land Surface Temperature"
+  authors: "Desai, A. R., Khan, A. M., Zheng, T., **Paleri, S.**, Butterworth, B., Lee, T. R., Fisher, J. B., Hulley, G., Kleynhans, T., Gerace, A., Townsend, P. A., Stoy, P., Metzger, S."
+  venue: "Earth and Space Science, 8"
+  year: 2021
+  type: article
+  doi: "10.1029/2021EA001842"
+
+- title: "Novel approach to observing system simulation experiments improves information gain of surface–atmosphere field measurements"
+  authors: "Metzger, S., Durden, D., **Paleri, S.**, Sühring, M., Butterworth, B. J., Florian, C., Mauder, M., Plummer, D. M., Wanner, L., Xu, K., Desai, A. R."
+  venue: "Atmospheric Measurement Techniques, 14, 6929–6954"
+  year: 2021
+  type: article
+  doi: "10.5194/amt-14-6929-2021"
+  featured: true
+
+- title: "Connecting land–atmosphere interactions to surface heterogeneity in CHEESEHEAD19"
+  authors: "Butterworth, B. J., et al. (incl. **Paleri, S.**)"
+  venue: "Bulletin of the American Meteorological Society, 102"
+  year: 2021
+  type: article
+  doi: "10.1175/BAMS-D-19-0346.1"
+
+- title: "Spatial and temporal variability in energy and water vapour fluxes observed at seven sites on the Indian subcontinent during 2017"
+  authors: "Bhat, G. S., Morrison, R., Taylor, C. M., Bhattacharya, B. K., **Paleri, S.**, et al."
+  venue: "Quarterly Journal of the Royal Meteorological Society, 146, 2853–2866"
+  year: 2019
+  type: article
+  doi: "10.1002/qj.3688"

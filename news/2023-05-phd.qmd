@@ -1,0 +1,9 @@
+---
+title: "PhD from UW–Madison"
+date: 2023-05-01
+when: "2023"
+date-format: "YYYY"
+description: "Thesis on CHEESEHEAD19 observations and LES of secondary circulations, advised by Ankur Desai."
+---
+
+Sreenath completes his PhD in Atmospheric and Oceanic Sciences at the University of Wisconsin–Madison, with a thesis on CHEESEHEAD19 observations and large-eddy simulations of secondary circulations, advised by Ankur Desai.

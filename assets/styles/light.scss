@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+$body-bg: #f5f6f8;
+$body-color: #13161b;
+$primary: #7d1d24;
+$link-color: #7d1d24;
+$navbar-bg: #f5f6f8;
+$navbar-fg: #59606b;
+$navbar-hl: #13161b;
+$footer-bg: #f5f6f8;
+$footer-fg: #59606b;
+$border-color: #dfe3e8;
+
+/*-- scss:rules --*/
+:root {
+  --bg: #f5f6f8; --surface: #ffffff; --ink: #13161b; --muted: #59606b; --line: #dfe3e8;
+  --accent: #7d1d24; --accent-soft: #f4e6e7; --on-accent: #ffffff; --mid: #eef0f3;
+}

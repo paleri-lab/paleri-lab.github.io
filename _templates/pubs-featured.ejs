@@ -1,0 +1,28 @@
+<%
+  // Full list grouped by year, or (with listing option `featured-only`) the homepage's top 3.
+  const bold = (s) => String(s || "").replace(/\*\*(.+?)\*\*/g, "<b>$1</b>");
+  const featuredOnly = true;
+  const list = featuredOnly ? items.filter((i) => i.featured).slice(0, 3) : items;
+  let year = null;
+%>
+```{=html}
+<div class="pubs">
+<% for (const p of list) { %>
+  <% if (!featuredOnly && p.year !== year) { year = p.year; %>
+  <div class="year" data-year="<%= p.year %>"><%= p.year %></div>
+  <% } %>
+  <article class="pub" data-type="<%= p.type %>" data-year="<%= p.year %>">
+    <div class="t"><%= p.title %></div>
+    <div class="a"><%= bold(p.authors) %></div>
+    <div class="v"><%= p.venue %> · <%= p.year %></div>
+    <div class="links">
+      <% if (p.doi) { %><a class="chip" href="https://doi.org/<%= p.doi %>">DOI</a><% } %>
+      <% if (p.pdf) { %><a class="chip" href="<%= p.pdf %>">PDF</a><% } %>
+      <% if (p.code) { %><a class="chip" href="<%= p.code %>">Code</a><% } %>
+      <% if (p.data) { %><a class="chip" href="<%= p.data %>">Data</a><% } %>
+      <% if (p.url) { %><a class="chip" href="<%= p.url %>">Link</a><% } %>
+    </div>
+  </article>
+<% } %>
+</div>
+```

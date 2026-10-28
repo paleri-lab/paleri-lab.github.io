@@ -1,0 +1,22 @@
+---
+pagetitle: "Code & Data"
+page-layout: custom
+listing:
+  id: code-data
+  contents: data/code-data.yml
+  sort: false
+  template: _templates/cards.ejs
+---
+
+::: {.wrap .page-title}
+[Code & Data]{.eyebrow}
+
+# Open tools and datasets
+
+Model setups, analysis code and datasets from our projects, each with a repository or DOI so they can be cited and reused.
+:::
+
+::: {.wrap .page-body}
+::: {#code-data}
+:::
+:::

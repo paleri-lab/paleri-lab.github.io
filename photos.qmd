@@ -1,0 +1,22 @@
+---
+pagetitle: "Photos"
+page-layout: custom
+listing:
+  id: gallery
+  contents: data/photos.yml
+  sort: false
+  template: _templates/photos.ejs
+---
+
+::: {.wrap .page-title}
+[Photos]{.eyebrow}
+
+# Field, lab and model
+
+Field campaigns, instruments, simulations and lab life. Click any photo to enlarge it.
+:::
+
+::: {.wrap .page-body}
+::: {#gallery}
+:::
+:::

@@ -1,0 +1,3 @@
+# Settings shared by every news post in this folder.
+page-layout: article
+date-format: "MMMM YYYY"

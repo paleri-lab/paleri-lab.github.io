@@ -1,0 +1,15 @@
+<%
+  // `strip` layout (homepage): first 5 featured photos. Otherwise: full masonry gallery.
+  const strip = false;
+  const list = strip ? items.filter((i) => i.featured).slice(0, 5) : items;
+%>
+```{=html}
+<div class="<%= strip ? 'strip' : 'gallery' %>">
+<% for (const ph of list) { const cap = ph.caption + (ph.when && !strip ? ` · ${ph.when}` : ""); %>
+  <figure data-src="<%= ph.src %>" data-cap="<%= cap %>" tabindex="0" role="button" aria-label="Enlarge: <%= ph.caption %>">
+    <img src="<%= ph.src %>" alt="<%= ph.caption %>" loading="lazy">
+    <figcaption><%= cap %></figcaption>
+  </figure>
+<% } %>
+</div>
+```

@@ -1,0 +1,9 @@
+---
+title: "New paper in JGR-Atmospheres"
+date: 2022-01-01
+when: "2022"
+date-format: "YYYY"
+description: "Space-scale resolved fluxes across a heterogeneous forested landscape from airborne eddy covariance."
+---
+
+Our paper on space-scale resolved surface–atmosphere fluxes across a heterogeneous, mid-latitude forested landscape is out in *JGR-Atmospheres*. [Read it here](https://doi.org/10.1029/2022JD037138).

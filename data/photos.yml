@@ -1,0 +1,41 @@
+# Photo gallery. One entry per photo, in the order they should appear.
+#
+#   src:      path to the image in assets/img/photos/ (resize to ~1600 px wide first)
+#   caption:  short caption
+#   when:     e.g. "Jun 2026" (optional)
+#   featured: true -> also shown in the photo strip on the homepage (first 5 featured)
+
+- src: assets/img/photos/texaqs-team.jpg
+  caption: "The TexAQS field team at the measurement site"
+  when: "Jun 2026"
+  featured: true
+- src: assets/img/photos/chapman-group.jpg
+  caption: "AGU Chapman Conference on Surface Energy Balance, NCAR, Boulder"
+  when: "Sep 2025"
+  featured: true
+- src: assets/img/photos/texaqs-tower.jpg
+  caption: "Flux tower at the TexAQS site"
+  when: "Jun 2026"
+  featured: true
+- src: assets/img/research/fire-grass-b.jpg
+  caption: "Fire LES: wind-driven grassland fire front"
+  featured: true
+- src: assets/img/photos/texaqs-trailer.jpg
+  caption: "TexAQS: mobile lab trailer, instrument building and tower"
+  when: "Jun 2026"
+  featured: true
+- src: assets/img/photos/texaqs-site.jpg
+  caption: "TexAQS site under summer cumulus"
+  when: "Jun 2026"
+- src: assets/img/research/fire-crown-d.jpg
+  caption: "Fire LES: crown fire plume in a tall canopy"
+- src: assets/img/photos/wetland.jpg
+  caption: "Wetlands and lakes of the CHEESEHEAD19 domain, northern Wisconsin"
+- src: assets/img/research/les-palm.jpg
+  caption: "PALM LES: vertical velocity in plan view and 3D"
+- src: assets/img/research/flux-topo.jpg
+  caption: "Latent heat flux topography: turbulent and mesoscale parts"
+- src: assets/img/research/airborne-wavelet.jpg
+  caption: "Along-track fluxes and wavelet cross-scalogram from the King Air"
+- src: assets/img/research/w-30min.jpg
+  caption: "30-minute averaged vertical velocity revealing secondary circulations"

@@ -1,0 +1,19 @@
+# Code, datasets and model setups. One entry per item. The page shows a "coming soon"
+# note while this list is empty.
+#
+#   kind:        Code | Dataset | Model setup | Notebook
+#   title:       name
+#   description: one or two sentences
+#   links:       list of {label, url}, e.g. GitHub, Zenodo DOI, Docs
+#
+# Example (remove the leading "# " to use it):
+# - kind: Code
+#   title: "Airborne wavelet flux toolkit"
+#   description: "Wavelet cross-scalograms and space-scale resolved fluxes from aircraft eddy covariance."
+#   links:
+#     - label: GitHub
+#       url: "https://github.com/paleri-lab/..."
+#     - label: Zenodo DOI
+#       url: "https://doi.org/10.5281/zenodo...."
+
+[]

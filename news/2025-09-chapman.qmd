@@ -1,0 +1,10 @@
+---
+title: "AGU Chapman Conference on Surface Energy Balance"
+date: 2025-09-01
+description: "Sreenath joined colleagues at NCAR in Boulder to work on surface energy balance closure."
+image: ../assets/img/photos/chapman-group.jpg
+---
+
+Sreenath joined colleagues at NCAR in Boulder for the AGU Chapman Conference on Surface Energy Balance.
+
+![At the AGU Chapman Conference, NCAR, Boulder.](../assets/img/photos/chapman-group.jpg)

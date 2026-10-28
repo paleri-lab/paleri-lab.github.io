@@ -1,0 +1,124 @@
+---
+pagetitle: "Texas A&M University"
+page-layout: custom
+listing:
+  - id: home-news
+    contents: news/*.qmd
+    sort: "date desc"
+    max-items: 4
+    date-format: "MMM YYYY"
+    template: _templates/news-feed.ejs
+  - id: home-pubs
+    contents: data/publications.yml
+    sort: false
+    template: _templates/pubs-featured.ejs
+  - id: home-photos
+    contents: data/photos.yml
+    sort: false
+    template: _templates/photos-strip.ejs
+---
+
+```{=html}
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Department of Atmospheric Sciences · Texas A&amp;M University</p>
+      <h1>The lowest kilometer of the <em>atmosphere</em></h1>
+      <p class="lede">We measure and model the turbulent boundary layer to understand how heat, water and carbon move between the land surface and the atmosphere, especially over patchy landscapes, burning vegetation and complex terrain where today's weather and climate models struggle.</p>
+      <div class="actions">
+        <a class="btn-hero primary" href="research.html">Explore our research →</a>
+        <a class="btn-hero ghost" href="join.html">Prospective students</a>
+      </div>
+    </div>
+    <figure>
+      <picture>
+        <source media="(prefers-reduced-motion: reduce)" srcset="assets/img/les-w-still.jpg">
+        <img src="assets/img/les-w.gif" alt="Animated 3D large-eddy simulation showing bands of rising (red) and sinking (blue) air over a 27 by 30 kilometer domain in northern Wisconsin" width="1070" height="635">
+      </picture>
+      <figcaption class="mono">
+        <span>PALM LES · CHEESEHEAD19 domain · 24 Aug 2019</span>
+        <span class="cbar"><span>w&lt;0</span><i></i><span>w&gt;0</span></span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="head"><p class="eyebrow">What we study</p><a href="research.html">All research →</a></div>
+    <div class="themes">
+      <a class="theme" href="research.html#heterogeneity">
+        <img src="assets/img/research/les-palm.jpg" alt="Vertical velocity from a large-eddy simulation, showing streaks of updrafts and downdrafts" loading="lazy">
+        <div class="body">
+          <h3>Surface heterogeneity &amp; land–atmosphere interactions</h3>
+          <p>How patchy forests, wetlands and lakes modulate near-surface fluxes, and how to represent those effects in Earth system models.</p>
+          <div class="tags"><span class="tag">LES</span><span class="tag">CHEESEHEAD19</span><span class="tag">Bankhead</span></div>
+        </div>
+      </a>
+      <a class="theme" href="research.html#fire">
+        <img src="assets/img/research/fire-grass-b.jpg" alt="Simulated temperature field of a wind-driven grassland fire front, glowing yellow and orange" loading="lazy">
+        <div class="body">
+          <h3>Fire weather &amp; fire dynamics</h3>
+          <p>Canopy turbulence and micrometeorology applied to wildland fire: how vegetation and near-surface stability shape the way a fire front spreads.</p>
+          <div class="tags"><span class="tag">Canopy turbulence</span><span class="tag">Fire LES</span><span class="tag">Stability</span></div>
+        </div>
+      </a>
+      <a class="theme" href="research.html#transport">
+        <img src="assets/img/photos/texaqs-tower.jpg" alt="A guyed flux tower with instruments at the top, against a blue sky with cumulus clouds" loading="lazy" style="object-position:center 30%">
+        <div class="body">
+          <h3>Regional transport &amp; surface energy balance</h3>
+          <p>Scaling from single-point tower measurements to the landscape with aircraft, tower networks and models, and closing the surface energy budget.</p>
+          <div class="tags"><span class="tag">Airborne EC</span><span class="tag">TexAQS</span><span class="tag">W m⁻²</span></div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap split">
+    <div>
+      <div class="head"><div><p class="eyebrow">Lab news</p><h2>Latest</h2></div><a href="news.html">All news →</a></div>
+```
+
+::: {#home-news}
+:::
+
+```{=html}
+    </div>
+    <div>
+      <div class="head"><div><p class="eyebrow">Publications</p><h2>Recent papers</h2></div><a href="publications.html">All papers →</a></div>
+```
+
+::: {#home-pubs}
+:::
+
+```{=html}
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="head"><div><p class="eyebrow">From the field and the model</p><h2>Photos</h2></div><a href="photos.html">Gallery →</a></div>
+```
+
+::: {#home-photos}
+:::
+
+```{=html}
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+    <div class="join">
+      <div>
+        <h2>We're building the lab. Join us.</h2>
+        <p>We're looking for graduate students and postdocs who want to work across field measurements, data analysis and large-eddy simulation.</p>
+      </div>
+      <a class="btn-join" href="join.html">How to join →</a>
+    </div>
+  </div>
+</section>
+```

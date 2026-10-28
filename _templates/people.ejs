@@ -1,0 +1,57 @@
+<%
+  const groups = [
+    ["postdoc", "Postdoctoral researchers"],
+    ["grad", "Graduate students"],
+    ["undergrad", "Undergraduate researchers"],
+    ["visitor", "Visitors"],
+  ];
+  const labels = { website: "Website", scholar: "Google Scholar", orcid: "ORCID", github: "GitHub", linkedin: "LinkedIn", cv: "CV" };
+  const linkChips = (l) => !l ? "" : Object.entries(l).map(([k, v]) =>
+    k === "email" ? `<span class="chip">${v}</span>` : `<a class="chip" href="${v}">${labels[k] || k}</a>`).join("");
+  const pi = items.filter((p) => p.group === "pi");
+  const alumni = items.filter((p) => p.group === "alumni");
+%>
+```{=html}
+<% for (const p of pi) { %>
+<div class="pi">
+  <img src="<%= p.photo %>" alt="<%= p.name %>">
+  <div>
+    <h2><%= p.name %></h2>
+    <div class="role"><%= p.title %></div>
+    <p class="bio"><%= p.bio %></p>
+    <% if (p.education) { %><ul class="edu"><% for (const e of p.education) { %><li><%= e %></li><% } %></ul><% } %>
+    <div class="links"><%= linkChips(p.links) %></div>
+  </div>
+</div>
+<% } %>
+<% for (const [key, label] of groups) { const members = items.filter((p) => p.group === key);
+     if (!members.length && key !== "grad") continue; %>
+<div class="group">
+  <h3><%= label %></h3>
+  <div class="people">
+    <% for (const p of members) { %>
+    <div class="person">
+      <% if (p.photo) { %><img src="<%= p.photo %>" alt="<%= p.name %>" loading="lazy"><% } %>
+      <b><%= p.name %></b>
+      <span><%= p.title %></span>
+      <% if (p.bio) { %><span><%= p.bio %></span><% } %>
+      <div class="links"><%= linkChips(p.links) %></div>
+    </div>
+    <% } %>
+    <% if (key === "grad") { %>
+    <a class="recruit" href="join.html">We're recruiting graduate students.<br>See Join us →</a>
+    <% } %>
+  </div>
+</div>
+<% } %>
+<% if (alumni.length) { %>
+<div class="group">
+  <h3>Alumni</h3>
+  <ul class="alumni">
+  <% for (const p of alumni) { %>
+    <li><b><%= p.name %></b>, <%= p.title %><% if (p.next) { %> → <%= p.next %><% } %></li>
+  <% } %>
+  </ul>
+</div>
+<% } %>
+```

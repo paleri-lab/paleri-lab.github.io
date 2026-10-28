@@ -1,0 +1,41 @@
+<dialog class="lb" id="lb"><button type="button" aria-label="Close" id="lb-close">×</button><img id="lb-img" alt=""><p id="lb-cap"></p></dialog>
+<script>
+(() => {
+  // Click any figure with data-src (photo strip, gallery) to enlarge it.
+  const lb = document.getElementById("lb");
+  if (!lb) return;
+  const open = (fig) => {
+    document.getElementById("lb-img").src = fig.dataset.src;
+    document.getElementById("lb-img").alt = fig.dataset.cap || "";
+    document.getElementById("lb-cap").textContent = fig.dataset.cap || "";
+    lb.showModal();
+  };
+  document.addEventListener("click", (e) => { const f = e.target.closest("figure[data-src]"); if (f) open(f); });
+  document.addEventListener("keydown", (e) => {
+    const f = e.target.closest && e.target.closest("figure[data-src]");
+    if (f && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); open(f); }
+  });
+  document.getElementById("lb-close").addEventListener("click", () => lb.close());
+  lb.addEventListener("click", (e) => { if (e.target === lb) lb.close(); });
+
+  // Publication type filters
+  document.querySelectorAll(".filters button").forEach((b) => b.addEventListener("click", () => {
+    document.querySelectorAll(".filters button").forEach((x) => x.setAttribute("aria-pressed", x === b));
+    const f = b.dataset.filter;
+    document.querySelectorAll(".pub[data-type]").forEach((p) => { p.hidden = !(f === "all" || p.dataset.type === f); });
+    document.querySelectorAll(".year[data-year]").forEach((y) => {
+      y.hidden = ![...document.querySelectorAll(`.pub[data-year="${y.dataset.year}"]`)].some((p) => !p.hidden);
+    });
+  }));
+
+  // Copy-email button
+  const copy = document.getElementById("copy-email");
+  if (copy) copy.addEventListener("click", () => {
+    const txt = document.getElementById("email").textContent;
+    navigator.clipboard.writeText(txt).then(() => { copy.textContent = "Copied"; }, () => {
+      const r = document.createRange(); r.selectNodeContents(document.getElementById("email"));
+      const s = getSelection(); s.removeAllRanges(); s.addRange(r); copy.textContent = "Press ⌘C to copy";
+    });
+  });
+})();
+</script>

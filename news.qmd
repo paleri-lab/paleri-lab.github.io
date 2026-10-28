@@ -1,0 +1,24 @@
+---
+pagetitle: "News"
+page-layout: custom
+listing:
+  id: news
+  contents: news/*.qmd
+  sort: "date desc"
+  date-format: "MMM YYYY"
+  template: _templates/news-feed.ejs
+  feed: true
+---
+
+::: {.wrap .page-title}
+[News]{.eyebrow}
+
+# Lab news
+
+New papers, field campaigns, talks, awards and people joining.
+:::
+
+::: {.wrap .page-body style="max-width:860px"}
+::: {#news}
+:::
+:::

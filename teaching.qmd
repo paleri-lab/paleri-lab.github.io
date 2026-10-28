@@ -1,0 +1,28 @@
+---
+pagetitle: "Teaching"
+page-layout: custom
+---
+
+::: {.wrap .page-title}
+[Teaching]{.eyebrow}
+
+# Courses
+:::
+
+::: {.wrap .page-body}
+<!--
+Add one card per course by copying this block (remove the comment markers):
+
+::: card-item
+[ATMO 6xx · Graduate · Spring 2027]{.kind}
+
+### Boundary layer meteorology
+
+One or two sentences about the course. [Syllabus](link-to-syllabus.pdf){.chip}
+:::
+-->
+
+::: empty-note
+Courses taught by the lab will be listed here, with course numbers, semesters and syllabi.
+:::
+:::

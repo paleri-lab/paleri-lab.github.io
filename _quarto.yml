@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - assets/
+
+website:
+  title: "Atmospheric Boundary Layers & Turbulence Lab"
+  site-url: https://paleri-lab.github.io
+  description: "Atmospheric boundary layer and turbulence research at Texas A&M University: land–atmosphere interactions, fire weather and surface energy balance."
+  favicon: assets/logo/favicon.svg
+  page-navigation: false
+  navbar:
+    logo: assets/logo/logo.svg
+    logo-alt: "Atmospheric Boundary Layers & Turbulence Lab logo"
+    title: "Atmospheric Boundary Layers<br>& Turbulence Lab"
+    collapse-below: lg
+    right:
+      - text: Research
+        href: research.qmd
+      - text: People
+        href: people.qmd
+      - text: Publications
+        href: publications.qmd
+      - text: Code & Data
+        href: code-data.qmd
+      - text: News
+        href: news.qmd
+      - text: Photos
+        href: photos.qmd
+      - text: Teaching
+        href: teaching.qmd
+      - text: Join us
+        href: join.qmd
+  page-footer:
+    left: |
+      <span class="foot-id"><img class="foot-logo" src="/assets/logo/logo.svg" alt="">Atmospheric Boundary Layers &amp; Turbulence Lab<br>Department of Atmospheric Sciences · Texas A&amp;M University</span>
+    right: |
+      <span class="mono">Built with <a href="https://quarto.org">Quarto</a> · hosted on GitHub Pages</span>
+
+format:
+  html:
+    theme:
+      light: [default, assets/styles/light.scss, assets/styles/site.scss]
+      dark: [default, assets/styles/dark.scss, assets/styles/site.scss]
+    respect-user-color-scheme: true
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      text: |
+        <link rel="icon" href="/assets/logo/favicon.ico" sizes="any">
+        <link rel="apple-touch-icon" href="/assets/logo/apple-touch-icon.png">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    include-after-body: assets/scripts/lightbox.html

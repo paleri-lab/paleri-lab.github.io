@@ -1,0 +1,18 @@
+```{=html}
+<% if (!items.length) { %>
+<div class="empty-note">Code, datasets and model setups from our projects will be listed here, each with a repository or DOI so they can be cited and reused.</div>
+<% } else { %>
+<div class="cards">
+<% for (const c of items) { %>
+  <div class="card-item">
+    <span class="kind"><%= c.kind %></span>
+    <h3><%= c.title %></h3>
+    <p><%= c.description %></p>
+    <div class="row">
+      <% for (const l of (c.links || [])) { %><a class="chip" href="<%= l.url %>"><%= l.label %></a><% } %>
+    </div>
+  </div>
+<% } %>
+</div>
+<% } %>
+```

@@ -1,0 +1,39 @@
+---
+pagetitle: "Join us"
+page-layout: custom
+---
+
+::: {.wrap .page-title}
+[Join us]{.eyebrow}
+
+# Work with us
+:::
+
+::::: {.wrap .page-body}
+:::: prose
+We're a new lab at Texas A&M and are building the group now. If you're curious about turbulence, enjoy working with real field data and want to learn large-eddy simulation, get in touch.
+
+## Prospective PhD and MS students
+
+Students with backgrounds in atmospheric science, physics, mechanical or civil engineering, or applied math are all welcome. Programming experience in Python, R or Fortran helps; we'll teach you the rest.
+
+- Email a short note on your research interests, along with your CV.
+- Apply to the Texas A&M Atmospheric Sciences graduate program and mention the lab in your application.
+
+## Postdocs
+
+There are no open postdoc positions right now. If you're interested in fellowships that we could apply for together, please get in touch.
+
+## Undergraduates
+
+Texas A&M undergraduates interested in research for credit or summer projects are welcome to email.
+
+## Contact
+
+```{=html}
+<div class="copyrow"><code id="email">paleri@tamu.edu</code><button type="button" id="copy-email">Copy email</button></div>
+```
+
+[Department of Atmospheric Sciences · Texas A&M University · College Station, TX]{.mono}
+::::
+:::::

@@ -1,0 +1,13 @@
+```{=html}
+<ul class="feed">
+<% for (const item of items) { %>
+  <li <%= metadataAttrs(item) %>>
+    <time><%= item.when || item.date %></time>
+    <div>
+      <h3><a href="<%= item.path %>"><%= item.title %></a></h3>
+      <% if (item.description) { %><p><%= item.description %></p><% } %>
+    </div>
+  </li>
+<% } %>
+</ul>
+```

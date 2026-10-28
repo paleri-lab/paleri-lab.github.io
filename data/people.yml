@@ -1,0 +1,39 @@
+# Lab members. One entry per person.
+#
+#   name:   full name
+#   group:  pi | postdoc | grad | undergrad | visitor | alumni
+#   title:  what appears under the name, e.g. "PhD student · since 2026"
+#   photo:  path to a square photo in assets/img/people/ (optional)
+#   bio:    one or two sentences (optional)
+#   next:   alumni only, where they went next (optional)
+#   links:  any of website, scholar, orcid, github, linkedin, email, cv
+#
+#   education: list of degrees (optional, shown for the PI)
+
+- name: "Sreenath Paleri"
+  group: pi
+  title: "Assistant Professor · Principal Investigator"
+  photo: assets/img/people/sreenath-paleri.jpg
+  bio: >-
+    Sreenath studies how heterogeneous land surfaces shape turbulence and surface–atmosphere
+    exchange in the atmospheric boundary layer. Before Texas A&M he was an Environmental Scientist
+    at NSF NEON (Battelle) and a postdoc with CIWRO (University of Oklahoma) and NOAA's Atmospheric
+    Turbulence and Diffusion Division in Boulder, working on surface energy budgets in complex terrain.
+    He did his PhD in Ankur Desai's Ecometeorology Lab at UW–Madison, using CHEESEHEAD19 field data
+    and LES to study secondary circulations.
+  education:
+    - "PhD, Atmospheric & Oceanic Sciences, University of Wisconsin–Madison, 2023"
+    - "MTech, Applied Mechanics, IIT Madras, 2013"
+    - "BTech, Civil Engineering, IIT Madras, 2013"
+  links:
+    email: "paleri@tamu.edu"
+    cv: "https://sreenathpaleri.github.io/files/sreenath_cv.pdf"
+
+# Add students, postdocs and alumni below, for example:
+# - name: "Jane Doe"
+#   group: grad
+#   title: "PhD student · since 2026"
+#   photo: assets/img/people/jane-doe.jpg
+#   bio: "Works on canopy turbulence during wildland fires."
+#   links:
+#     github: "https://github.com/janedoe"

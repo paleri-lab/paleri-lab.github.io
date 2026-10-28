@@ -1,0 +1,10 @@
+---
+title: "In the field for TexAQS"
+date: 2026-06-01
+description: "The lab joined the TexAQS field campaign in Texas, with flux towers and a mobile measurement trailer."
+image: ../assets/img/photos/texaqs-team.jpg
+---
+
+The lab joined the TexAQS field campaign in Texas, with flux towers and a mobile measurement trailer.
+
+![The TexAQS field team at the measurement site.](../assets/img/photos/texaqs-team.jpg)

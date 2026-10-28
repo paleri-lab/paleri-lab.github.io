@@ -1,0 +1,30 @@
+---
+pagetitle: "Publications"
+page-layout: custom
+listing:
+  id: pubs
+  contents: data/publications.yml
+  sort: false
+  template: _templates/pubs.ejs
+---
+
+::: {.wrap .page-title}
+[Publications]{.eyebrow}
+
+# Papers
+
+Lab members are in bold.
+
+```{=html}
+<div class="filters" role="group" aria-label="Filter by type">
+  <button type="button" data-filter="all" aria-pressed="true">All</button>
+  <button type="button" data-filter="article" aria-pressed="false">Journal articles</button>
+  <button type="button" data-filter="chapter" aria-pressed="false">Book chapters</button>
+</div>
+```
+:::
+
+::: {.wrap .page-body}
+::: {#pubs}
+:::
+:::

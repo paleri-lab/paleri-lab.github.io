@@ -24,7 +24,7 @@ listing:
     <div>
       <p class="eyebrow">Department of Atmospheric Sciences · Texas A&amp;M University</p>
       <h1>The lowest kilometer of the <em>atmosphere</em></h1>
-      <p class="lede">We measure and model the turbulent boundary layer to understand how mass, energy and momentum move between the land surface and the atmosphere, especially over heterogeneous landscapes, where today's weather and earth system models struggle.</p>
+      <p class="lede">Accurate and reliable knowledge of  surface-atmospheric exchanges is essential to inform our theories and models of Earth system processes. Terrestrial ecosystems and the atmospheric boundary layer (ABL) act as important intermediaries for these exchange processes. Our primary research interests are 1) using observations of the land surface and ABL to better inform model representations of surface-atmosphere exchanges and 2) numerical modeling of atmospheric turbulence over realistic, heterogeneous surfaces. We achieve this by combining observational data from targeted field campaigns with numerical models and bottom up scaling from local measurements into gridded data.</p>
       <div class="actions">
         <a class="btn-hero primary" href="research.html">Explore our research →</a>
         <a class="btn-hero ghost" href="join.html">Prospective students</a>

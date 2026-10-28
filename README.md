@@ -19,10 +19,9 @@ Every push to `main` rebuilds the site automatically (about 2 minutes); see **Ac
 | Publications                       | `data/publications.yml`                |
 | People (PI bio, students, alumni)  | `data/people.yml`                      |
 | Photo gallery & homepage photo strip | `data/photos.yml` + images in `assets/img/photos/` |
-| Code & data cards                  | `data/code-data.yml`                   |
 | Research themes and projects       | `research.qmd`                         |
 | Homepage text and research cards   | `index.qmd`                            |
-| Join us, Teaching                  | `join.qmd`, `teaching.qmd`             |
+| Join us                            | `join.qmd`                             |
 | Menu, site title, footer           | `_quarto.yml`                          |
 | Colors and fonts                   | `assets/styles/*.scss`                 |
 | Logo and browser-tab icon          | `assets/logo/`                         |
@@ -60,6 +59,13 @@ under "Recent papers" on the homepage (the first three featured papers are shown
 
 **Add a photo.** Resize to ~1600 px wide, put it in `assets/img/photos/`, and add an entry to
 `data/photos.yml`. `featured: true` puts it in the homepage photo strip (first five featured).
+
+## Hidden pages
+
+The Code & Data and Teaching pages are switched off for now. To bring one back, rename
+`_code-data.qmd` → `code-data.qmd` (or `_teaching.qmd` → `teaching.qmd`; Quarto skips files that
+start with `_`) and add it back to the menu in `_quarto.yml`. Code & Data cards live in
+`data/code-data.yml`.
 
 ## Preview locally
 

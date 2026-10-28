@@ -22,14 +22,10 @@ website:
         href: people.qmd
       - text: Publications
         href: publications.qmd
-      - text: Code & Data
-        href: code-data.qmd
       - text: News
         href: news.qmd
       - text: Photos
         href: photos.qmd
-      - text: Teaching
-        href: teaching.qmd
       - text: Join us
         href: join.qmd
   page-footer:

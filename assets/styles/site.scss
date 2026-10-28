@@ -47,7 +47,7 @@ main.content { margin-top: 0; }
 .hero .lede { color: #d4d8de; font-size: 1.08rem; max-width: 34em; margin: 0; }
 .hero .actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 28px; }
 .hero figure { margin: 0; min-width: 0; }
-.hero figure img { width: 100%; aspect-ratio: 1070 / 635; object-fit: cover; }
+.hero figure img { width: 100%; height: auto; aspect-ratio: 1070 / 635; object-fit: contain; display: block; }
 .hero figcaption { display: flex; gap: 12px; align-items: center; justify-content: space-between; flex-wrap: wrap; color: var(--hero-muted); margin-top: 10px; }
 .cbar { display: flex; align-items: center; gap: 8px; }
 .cbar i { display: block; width: 120px; height: 8px; border-radius: 2px; background: linear-gradient(90deg, #3b4cc0, #8db0fe 30%, #dddddd 50%, #f49a7b 70%, #b40426); }
